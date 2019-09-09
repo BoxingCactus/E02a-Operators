@@ -80,7 +80,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
-    toReturn = ord(i)
+    toReturn = int(i)
     return toReturn
 
 def convertFloat(f):
@@ -120,7 +120,7 @@ def substr(s,a1,a2):
     Returns a substring of s (from position a1 to a2)
     '''
     toReturn = ''
-    toReturn = s[a1,a2]
+    toReturn = s[a1:a2]
     return toReturn
 
 def reverseStr(s):
@@ -153,7 +153,7 @@ def randomNumber():
     Returns a random number between 1000 and 9999
     '''
     toReturn = 0
-    random.random(1000) * 9999
+    random.randint(1000,9999)
     return toReturn
 
 def reverseList(l):
@@ -161,7 +161,7 @@ def reverseList(l):
     Returns a list which is a mirror of l (each element is present in reverse order from l)
     '''
     toReturn = []
-    toReturn = reverse(l)
+    reverse(l)
     return toReturn
 
 def shuffleList(l):
