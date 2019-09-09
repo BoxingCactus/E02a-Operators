@@ -64,7 +64,7 @@ def orderOperations(a1,a2,a3):
     i.e., changes normal order or operations 
     '''
     toReturn = 0
-    toReturn =
+    toReturn = (a1 + a2) * a3
     return toReturn
 
 def whichType(t):
@@ -72,7 +72,7 @@ def whichType(t):
     Returns the python data type of t
     '''
     toReturn = ''
-    # add your code here
+    toReturn =
     return toReturn
 
 def convertInt(i):
@@ -80,7 +80,7 @@ def convertInt(i):
     Converts i to an integer
     '''
     toReturn = 0
-    # add your code here
+    toReturn =
     return toReturn
 
 def convertFloat(f):
@@ -144,7 +144,9 @@ def randomElement(l):
     Returns a random element of list l
     '''
     toReturn = ''
-    # add your code here
+    toReturn = import random
+    myList = [l]
+    random.choice(myList)
     return toReturn
 
 def randomNumber():
@@ -152,7 +154,8 @@ def randomNumber():
     Returns a random number between 1000 and 9999
     '''
     toReturn = 0
-    # add your code here
+    toReturn = import random
+    random.random(1000) * 9999
     return toReturn
 
 def reverseList(l):
@@ -160,7 +163,7 @@ def reverseList(l):
     Returns a list which is a mirror of l (each element is present in reverse order from l)
     '''
     toReturn = []
-    # add your code here
+    toReturn = reverse l
     return toReturn
 
 def shuffleList(l):
@@ -168,7 +171,8 @@ def shuffleList(l):
     Returns a list which has all the elements of l in a random order
     '''
     toReturn = []
-    # add your code here
+    toReturn = random.shuffle(l)
+
     return toReturn
 
 def listUntil(a):
@@ -176,7 +180,7 @@ def listUntil(a):
     Returns a list contains numbers from 0 to a
     '''
     toReturn = []
-    # add your code here
+ toReturn =
     return toReturn
 
 
